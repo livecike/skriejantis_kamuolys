@@ -6,6 +6,8 @@ flex css
 bootstrap
 
 
+margin naudoti rem (ne px)
+
 <ul>
        <li><a href="">Pradžia</a></li>
         <li><a href="">Apie Mus</a></li>

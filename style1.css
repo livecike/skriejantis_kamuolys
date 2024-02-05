@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,20 +7,20 @@
 body {
     width: 100%;
     height: 100vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color:#ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
 }
 
 nav {
     padding: 0 50px;
     width: 100%;
-  }
+}
 
 .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
+}
 
 
 .navbar-items {
@@ -32,11 +32,11 @@ nav {
 }
 
 .navbar-one {
-    background-color: #f7f7f7 ;
+    background-color: #f7f7f7;
     color: #7d7d7d;
     height: 30px;
     cursor: pointer;
-    
+
 }
 
 
@@ -46,26 +46,29 @@ nav {
     margin-right: 20px;
     font-size: 12px;
 }
+
 .adresas:hover {
     color: #4e97d8;
-    transition; 0,5s; 
+    transition: 0, 5s;
 }
 
 .email {
     margin-right: 20px;
     font-size: 12px;
 }
+
 .email:hover {
     color: #4e97d8;
-    transition; 0,5s; 
+    transition: 0, 5s;
 }
 
 .call {
-     font-size: 12px;
+    font-size: 12px;
 }
+
 .call:hover {
     color: #4e97d8;
-    transition; 0,5s; 
+    transition: 0, 5s;
 }
 
 .search {
@@ -74,11 +77,11 @@ nav {
 
 .search:hover {
     color: #4e97d8;
-    transition; 0,5s; 
+    transition: 0, 5s;
 }
 
 .navbar-two {
-padding: 25px 0px;
+    padding: 25px 0px;
 }
 
 .logo {
@@ -86,49 +89,49 @@ padding: 25px 0px;
     text-decoration: none;
     color: #10242b;
     margin-left: 350px;
-       
+
 }
 
-.logo:hover{
+.logo:hover {
     color: #4e97d8;
-    transition; 0,5s;
+    transition: 0, 5s;
 }
 
 li {
     list-style: none;
-            
+
 }
 
 a {
     text-decoration: none;
-    font-weight:600;
+    font-weight: 600;
     font-size: 13px;
     /* margin-right: 10px; */
     /* margin-left: 10px; */
     color: #10242b;
 }
 
-   a:after{
+a:after {
     /*content: ' \007C';*/
     /*margin-left: 1rem;*/
     color: #7d7d7d;
-   }
+}
 
 a:hover {
     color: #4e97d8;
-    transition; 0,5s;
+    transition: 0, 5s;
 }
 
 .banner {
     position: relative;
 }
 
-.banner img{
+.banner img {
     width: 100%;
     margin-top: 50px;
-    filter: brightness(0.6); 
+    filter: brightness(0.6);
 }
-  
+
 .banner-text {
     position: absolute;
     top: 50%;
@@ -137,26 +140,26 @@ a:hover {
     padding: 20px;
 }
 
-  .banner-text h1 {
-   font-size: 35px;
-   font-family:'Lucida Sans';
-   opacity: 0.7;
-  }
+.banner-text h1 {
+    font-size: 35px;
+    font-family: 'Lucida Sans';
+    opacity: 0.7;
+}
 
-  .main-text {
+.main-text {
     width: auto;
     margin: 5rem 15rem;
 
-  }
+}
 
-  .space {
+.space {
     margin: 5rem;
-  }
+}
 
 .menu-li:not(:last-child):after {
     content: '\007C';
 }
 
 .menu-link {
-    padding: 1rem; 
+    padding: 1rem;
 }

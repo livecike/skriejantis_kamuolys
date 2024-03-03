@@ -7,3 +7,5 @@ bootstrap
 
 
 margin naudoti rem (ne px)
+
+paveiksliuku galerijai naudoti flex

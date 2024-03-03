@@ -8,4 +8,4 @@ bootstrap
 
 margin naudoti rem (ne px)
 
-paveiksliuku galerijai naudoti flex
+paveiksliuku galerijai naudoti -  flex

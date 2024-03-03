@@ -1,0 +1,15 @@
+.banner-center {
+    background-color: #f7f7f7;
+    padding: 15px 0px;
+    color: #999999;
+    height: 50px;
+}
+
+.banner-center i {
+    color: #999999;
+}
+.banner-center li {
+    display: inline-block;
+     
+}
+

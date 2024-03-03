@@ -104,7 +104,7 @@ li {
     margin-left: auto;
 }
 
-a {
+.menu-links a {
     text-decoration: none;
     font-weight: 600;
     font-size: 13px;
@@ -204,12 +204,26 @@ footer h2:hover {
     transition: 0, 5s;
 }
 
+.footer-block1 {
+    width: 30rem;
+    margin-left: 200px;
+}
 
-footer h3 {
+.footer-block1 h3 {
     text-align: left;
     margin-top: 50px;
     margin-bottom: 30px;
-    margin-left: 200px;
+}
+
+.footer-block1 h3:after {
+    display: inline-block;
+    height: 1px;
+    width: 40px;
+    background-color: white;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .footer-icon i {
@@ -219,14 +233,18 @@ footer h3 {
 }
 
 .footer-icon li {
-    margin-left: 200px;
+    text-decoration: none;
 }
 
-.footer-text {
+.white-text {
     color: white;
 }
 
-.footer-text:hover {
+.footer-link {
+    text-decoration: none;
+}
+
+.footer-link:hover {
     color: #4e97d8;
     transition: 0, 5s;
 }
@@ -247,4 +265,11 @@ footer h3 {
 
 .footer-copyright-link {
     color: white;
+    text-decoration: none;
+}
+
+.footer-icon li:not(:last-child) {
+    border-bottom: 1px solid #f2f2f2;
+
+
 }

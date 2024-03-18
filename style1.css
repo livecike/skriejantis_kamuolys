@@ -173,6 +173,10 @@ i {
     color: black;
 }
 
+.photo-row {
+    display: inline-block;
+}
+
 .column {
     float: left;
     width: 50%;

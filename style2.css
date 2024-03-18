@@ -8,8 +8,38 @@
 .banner-center i {
     color: #999999;
 }
+
 .banner-center li {
     display: inline-block;
-     
+    margin-left: 900px;
+
 }
 
+.gallery-text {
+    color: black;
+}
+
+.gallery {
+    padding-left: 15px;
+    padding-right: 40px;
+    display: flex;
+       flex-wrap: wrap;
+
+
+    /* align-items: baseline;  */
+    /* justify-content: space-between;   */
+
+}
+
+.gallery img {
+    width: 40px;
+    width: 300px;
+    padding: 10px;
+}
+
+
+.link-style {
+    color: #4e97d8;
+    text-decoration: none;
+    font-weight:bold;
+}

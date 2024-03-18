@@ -7,6 +7,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
     <title>Krepšinio Klubas „Skriejantis Kamuolys“</title>
 
 </head>
@@ -68,8 +71,8 @@
 
         <div class="gallery">
 
-            <img src="2.png">
-            <img src="3.png">
+            <a href="2.png" data-fancybox="gallery"> <img src="2.png"></a>
+            <a href="3.png" data-fancybox="gallery"><img src="3.png"></a>
         </div>
 
         <p class="gallery-text"> Šiaulių krepšinio tradicijas puoselėjančios šeimos pasodino ąžuolą.</p>
@@ -103,7 +106,7 @@
             <img src="23.png">
             <img src="24.png">
             <img src="25.png">
-            
+
         </div>
 
 
@@ -135,6 +138,12 @@
 
         </div>
     </footer>
+
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+        });
+
+    </script>
 
 </body>
 

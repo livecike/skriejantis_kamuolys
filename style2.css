@@ -61,6 +61,7 @@ input[type=text],select {
 }
 label {
     color: #999999;
+display: block;
 }
 
 input[type=submit] {

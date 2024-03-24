@@ -64,6 +64,7 @@ label {
 display: block;
 }
 
+
 input[type=submit] {
     width: 30%;
     color: white;
@@ -79,4 +80,8 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #4e97d8;
     transition: 0, 5s;
+}
+
+textarea {
+    color:#999999;
 }

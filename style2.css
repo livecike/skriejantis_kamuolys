@@ -50,5 +50,30 @@
     line-height: 2.8;
 }
 
-.contact-forma {
+
+input[type=text],
+select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    color: #999999;
+}
+
+input[type=submit] {
+    width: 30%;
+    color: white;
+    background-color: #00b294;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid;
+    font-size: 13px;
+    border-radius: 20px;
+    /* cursor: pointer; */
+}
+
+input[type=submit]:hover {
+    background-color: #4e97d8;
+    transition: 0, 5s;
 }

@@ -64,16 +64,24 @@ label {
 display: block;
 }
 
+textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+
+}
+
 
 input[type=submit] {
-    width: 30%;
+    width: 25%;
     color: white;
     background-color: #00b294;
     padding: 14px 20px;
     margin: 8px 0;
     border: solid;
     font-size: 13px;
-    border-radius: 20px;
+    border-radius: 25px;
     /* cursor: pointer; */
 }
 
